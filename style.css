@@ -1,0 +1,98 @@
+/* Resetando estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Seção de Introdução */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.imagem-campo {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    max-width: 900px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+/* Seção de Conteúdo */
+.conteudo {
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada benefício */
+.beneficio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.beneficio h3 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+.imagem-beneficio {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
